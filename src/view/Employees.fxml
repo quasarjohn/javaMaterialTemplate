@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox fx:id="container" prefHeight="457.0" prefWidth="442.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox spacing="16.0" HBox.hgrow="ALWAYS">
+         <children>
+            <ScrollPane fx:id="sp" fitToHeight="true" fitToWidth="true" hbarPolicy="NEVER" pannable="true" HBox.hgrow="SOMETIMES">
+               <content>
+                  <VBox fx:id="empListContainer" alignment="CENTER" />
+               </content>
+            </ScrollPane>
+            <ScrollPane fx:id="sp2" hbarPolicy="NEVER" vbarPolicy="NEVER" HBox.hgrow="ALWAYS">
+               <content>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label text="Hello World!">
+                           <font>
+                              <Font size="36.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </content>
+            </ScrollPane>
+         </children>
+      </HBox>
+   </children>
+   <padding>
+      <Insets bottom="16.0" left="16.0" right="16.0" top="16.0" />
+   </padding>
+   <effect>
+      <DropShadow color="#00000079" height="10.0" offsetX="2.0" offsetY="2.0" radius="4.5" width="10.0" />
+   </effect>
+</HBox>

@@ -1,0 +1,33 @@
+#drawerHeader{
+    -fx-background-color:#592A71;
+}
+
+#header{
+    -fx-background-color:#592A71;
+}
+
+.jfx-hamburger-icon{
+    -fx-spacing: 5;
+    -fx-cursor: hand;
+    -fx-background-color : white;
+}
+.jfx-hamburger-icon StackPane{
+    -fx-pref-width: 35px;
+    -fx-pref-height: 5px;
+    -fx-background-color : #D63333;
+    -fx-background-radius : 5px;
+}
+
+#hamburger StackPane{
+    -fx-background-color : white;
+
+    -fx-pref-width: 25px;
+    -fx-pref-height: 2px;
+}
+
+.root {
+
+-fx-focus-color: white;
+
+}
+
